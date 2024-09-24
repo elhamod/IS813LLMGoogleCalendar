@@ -19,6 +19,7 @@ event = Event(
     start=(1 / Sep / 2019)[9:00],
     recurrence=[
         Recurrence.rule(freq=DAILY),
+    ]
 )
 
 calendar.add_event(event)
