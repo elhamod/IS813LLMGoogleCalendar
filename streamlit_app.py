@@ -10,7 +10,7 @@ from gcsa.event import Event
 from gcsa.google_calendar import GoogleCalendar
 from gcsa.recurrence import Recurrence, DAILY, SU, SA
 
-from beautiful_date import Jan, Apr, Sep
+from beautiful_date import Jan, Apr, Sept
 
 
 calendar = GoogleCalendar('mndhamod@gmail.com', credentials_path='client_secret_920720038017-aos0aqjnr59dn3fm2ccb60fvk2qicn3e.apps.googleusercontent.com.json')
