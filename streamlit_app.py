@@ -25,6 +25,4 @@ calendar = GoogleCalendar('mndhamod@gmail.com', credentials_path='client_secret_
 # calendar.add_event(event)
 
 for event in calendar:
-    st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+    st.write(event)
