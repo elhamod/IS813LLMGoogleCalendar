@@ -4,7 +4,7 @@ from gcsa.google_calendar import GoogleCalendar
 from gcsa.recurrence import Recurrence, DAILY, SU, SA
 
 from beautiful_date import Jan, Apr, Sept
-
+import json
 from gcsa.event import Event
 from gcsa.google_calendar import GoogleCalendar
 from gcsa.recurrence import Recurrence, DAILY, SU, SA
@@ -13,7 +13,7 @@ from beautiful_date import Jan, Apr, Sept
 
 
 credentials = service_account.Credentials.from_service_account_file(
-        st.secrets["MYJSON"],
+        json.loads(st.secrets["MYJSON"]),
         scopes=["https://www.googleapis.com/auth/calendar"]
     )
 
