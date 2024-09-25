@@ -28,7 +28,7 @@ calendar = GoogleCalendar(credentials=credentials)
 # )
 
 # calendar.add_event(event)
-# c = list(calendar.get_events(calendar_id="mndhamod@gmail.com"))
+c = list(calendar.get_events(calendar_id="mndhamod@gmail.com"))
 # print(c)
 for event in c:
     st.write(event)
