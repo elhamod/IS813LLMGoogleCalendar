@@ -12,6 +12,12 @@ from google.oauth2 import service_account
 from beautiful_date import Jan, Apr, Sept
 
 
+# Deviations:
+# 1- Creating service account and then creating a key for it. (because we the app can't create a server for itself).
+# 2- Adding the service account email to the calendar as a user with event edit permissions (because we the app can't create a server for itself).
+# 3- Using service_account.Credentials.from_service_account_info to get the credenntials instead of credentials_path (for security reasons).
+# 4- Putting the JSON in StreamLit secrets and using json.loads rather than uploading the file to github (for security reasons).
+
 credentials = service_account.Credentials.from_service_account_info(
         json.loads(st.secrets["MYJSON"]),
         scopes=["https://www.googleapis.com/auth/calendar"]
