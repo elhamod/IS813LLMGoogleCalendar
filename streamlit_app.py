@@ -12,7 +12,7 @@ from google.oauth2 import service_account
 from beautiful_date import Jan, Apr, Sept
 
 
-credentials = service_account.Credentials.from_service_account_file(
+credentials = service_account.Credentials.from_service_account_info(
         json.loads(st.secrets["MYJSON"]),
         scopes=["https://www.googleapis.com/auth/calendar"]
     )
