@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "llmcalendar2",
+  "private_key_id": "5b26aa6480beeebb0c088d2fcab5ed78caa06d6f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDq9McmCNI1ynO+\nNGO27a3E0+66StyqNS1ooL3k/7WGkirtEjYEGE9AGhabxkJpJkm+rF2DUkBcItqT\nY7mayjGc9cZLohQC3EpbBySwRkTdGm1y4TeqF9vyeraqD9c57P+6c4ZBARd0p1Y+\nJxrx67j5zNyVYx2ycOkCyHs6mb2YKPiVOIEqJaKDcFMBTNvIh8AG8i5smzJ/IFyD\ngZpK5POo6vUgjRHBB3OxMoFWF82Gw0fFi1o/M0LxO5uDzqw34e6Vv79DkzpPLsn3\ng9f7S6TDDVgkD+/Tjw6vuEBg1g0LvjLVWGN6oGK4EdaT0C7vCPLi4kVlaAFNSKA9\neT3LjgsXAgMBAAECggEAGh0ilUOduYTK4HUKMCayjZHQkrwHUpOefGaBNJaHInHU\ne4zum/3nsQQ1RxL+BpnO0HZv3kyiApuNF5yZ4G5gnUVjyLw25Sp+ySc+GKl2texe\nBcqqWSlVtNmWu8gO7807jwmP/mGUrc57c2T9Ra4hXQI78g6WGmMaQsjtiVHVFLgi\nf2F/FkDLUr9f7rFaFb5ULqKpaHbmkC1dI08qyJ7qj0gmcC0CIqUjMRj/sNbjOQrA\nCnFgXhk+H7ckkdZxcuhQ6/1FxsrjzCJRXRE2hsbfgwRjQIGwcJRkVDKaFz9YhZzf\nYZzDGw7Rx3HobGU4AumpMR7760Dxq2u7yWVGTHuzIQKBgQD778KtziNnv4pIcePM\n9Iq6TGKVoTit3qXMT89m8rBgYSN7Ochn1YLRzDgPGjRivwPhPn+b+PM6hzuIr1Qw\nw8nwVU3EYBdEXTpnO12vwrsi+w/v2URxNN0noiuYNO6TFWeRI3hrLAUrdirxI9Jl\nCcDQz7DVuHbpocWtIzD9p360iwKBgQDuvufkPPG53he2j12Auzs7ia3SCsbJi2Te\nD45HUI3frgcZc16pFrPNrXER3t96hyawtoNHpD4yjhXakAy2c1QrFjGIB98e44p5\nh+cMzswshaN+5Pr6ZJr0qy32+RqEDOxRDc9/IbFl/d8HPJ8Fo246KEY0sWj5/ovV\nim3v8oE5JQKBgQDbXWC9xYe+hmD5w3D+vM8ud+Q/NSoM+piS1ctZcGdzBCHI4f9F\nqftGgfMt8zs53+iY77pdLN9cTvPfiApei5wBz8TvAFxCAosf5+kjaQNY6hJuXVfi\n2ozWPbaHyU8ScsjC74eiianWtgWeAfroTx28s5rd/MhNlbZxkvrNYlJJEQKBgQDO\n9wX1sPNoSmTKKPxItYbCtTbPB/KOE14MtvWDUwy6ZJXY9U+RS5HxcjK76DZZdMIQ\nnRevSm10zAGb6BZtMAs+Es47e39rupt3gV3Fl5wd2HgEcCI2YHKIOcDuAcJ/yOgv\n18YSErZDkVH/ZwkADU5n8jPyR/2WAplcM9XcFaD6VQKBgCZNMX69fGNaXfDd/Cvu\n5kULGP6PCbVrTrAdjrp5mDbhSTjgWND8Vxmtk4QALE70r10XdbRmV3W7K2oxi26y\nASSvmJOSbjQZBDsDpZvQw0U3H5jllorVgDvzmWfeqnzlVjLaS3LJz8ziT8UZ/KF4\nwxyYGoFQQc+mOLcb/MdBDtta\n-----END PRIVATE KEY-----\n",
+  "client_email": "llmcalendar@llmcalendar2.iam.gserviceaccount.com",
+  "client_id": "106133464626056423214",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/llmcalendar%40llmcalendar2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
