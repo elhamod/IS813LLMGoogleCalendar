@@ -13,7 +13,7 @@ from beautiful_date import Jan, Apr, Sept
 
 
 credentials = service_account.Credentials.from_service_account_file(
-        "llmcalendar2-5b26aa6480be.json",
+        st.secrets["MYJSON"],
         scopes=["https://www.googleapis.com/auth/calendar"]
     )
 
