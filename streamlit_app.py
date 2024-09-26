@@ -12,44 +12,26 @@ from google.oauth2 import service_account
 from beautiful_date import Jan, Apr, Sept
 
 
-# Deviations:
+# Deviations from documentation:
 # 1- Creating service account and then creating a key for it. (because we the app can't create a server for itself).
-# 2- Adding the service account email to the calendar as a user with event edit permissions (because we the app can't create a server for itself).
+# 2- Adding the service account email to your calendar as a user with event edit permissions (from Settings and Sharing) (because we the app can't create a server for itself).
 # 3- Using service_account.Credentials.from_service_account_info to get the credenntials instead of credentials_path (for security reasons).
 # 4- Putting the JSON in StreamLit secrets and using json.loads rather than uploading the file to github (for security reasons).
 
+# Get the credintials from Secrets.
 credentials = service_account.Credentials.from_service_account_info(
         json.loads(st.secrets["MYJSON"]),
         scopes=["https://www.googleapis.com/auth/calendar"]
     )
 
-
+# Create the GoogleCalendar.
 calendar = GoogleCalendar(credentials=credentials)
-# for cal in calendar.get_calendar_list():
-#   print(cal)
-# event = Event(
-#     'Breakfast',
-#     start=(25 / Sept / 2024)[9:00],
-#     end=(25 / Sept / 2024)[10:00],
-# )
 
-# calendar.add_event(event)
+# Get the list of events.
 c = list(calendar.get_events(calendar_id="mndhamod@gmail.com"))
-# print(c)
+
+# It erate through the events and show them.
 for event in c:
     st.write(event)
 
 
-# calendar = GoogleCalendar('mndhamod@gmail.com', credentials_path='client_secret_959719549897-5rocqlvu26t7gur3ods0gjdn4kagcl9g.apps.googleusercontent.com.json', open_browser=False,  authentication_flow_port=8502)
-# # event = Event() #
-# #     'Breakfast',
-# #     start=(1 / Sep / 2019)[9:00],
-# #     recurrence=[
-# #         Recurrence.rule(freq=DAILY),
-# #     ]
-# # )
-
-# # calendar.add_event(event)
-
-# for event in calendar:
-#     st.write(event)
